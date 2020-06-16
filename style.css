@@ -35,11 +35,7 @@ h3
 h4{
 	margin: 0;
 }
-.souligner
-{
-	border-bottom : #FFC107 2px solid;
-	font-style : normal;
-}
+
 p
 {
 	font-size : 18px;
@@ -172,6 +168,19 @@ p
 	color : #FFC107;
 	height: 40px;
 }
+.conteneurSousTitreArticleLeft{
+	display :flex;
+	justify-content : left;
+	align-items : center;
+	height: 40px;
+	padding-left: 5px;
+	
+}
+h5{
+	border-bottom: 1px white ridge;
+	
+	font-size: 20px;
+}
 .elementLeft
 {
 	display : flex;
@@ -202,13 +211,16 @@ div.conteneurTitreArticle>i
 	color: #FFC107;
 	
 }
-ul
+.contacte
 {
 	list-style-type : none;
 }
-.conteneurElementArticle
-{
-	list-style-type : disc;
+.competence{
+	list-style-type : circle;
+}
+
+.padding{
+	padding: 20px;
 }
 
 .flexOne {
