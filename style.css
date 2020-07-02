@@ -233,7 +233,11 @@ div.conteneurTitreArticle>i
 }
 .elementLigneSansPuces{
 	margin: 10px;
+	
 }
 p.center span{
 	font-size:15px;
+}
+.right{
+	margin: 0;
 }
