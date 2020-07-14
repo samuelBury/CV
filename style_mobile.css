@@ -79,7 +79,9 @@ margin-bottom: 0;
 	align-items: center;
 	padding: 0;
 }
-
+.elementLigneFirst {
+	flex-direction: column;
+}
 
 
 
